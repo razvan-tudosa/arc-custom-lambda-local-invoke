@@ -1,4 +1,4 @@
-This repos is meant to reproduce an issue I stumbled upon while working with Architect framework.
+This repo is meant to reproduce an issue I stumbled upon while working with Architect framework.
 
 I'm trying to define a custom lambda through a plugin and manually invoke this lambda in sandbox for testing purposes.
 
@@ -11,4 +11,5 @@ Please create a handler file, or run [npx] arc init, or add 'autocreate true' to
 
 Steps to reproduce:
 
-- run `npx arc sandbox`
+- run `npm i` to install dependencies
+- run `npx arc sandbox` to start the project
